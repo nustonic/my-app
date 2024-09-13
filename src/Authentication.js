@@ -86,6 +86,7 @@ const Authentication = () => {
 
     return (
         <div className="container">
+             <img className="profile-image" width={200} height={200} src="https://image.freepik.com/free-vector/login-concept-illustration_114360-739.jpg"></img>
             <div className="tabs">
                 <button
                     className={activeTab === "login" ? "active" : ""}
@@ -177,6 +178,12 @@ const Authentication = () => {
             )}
             <style jsx>
                 {`
+                 .login-image {
+                        border-radius: 50%;
+                        margin-bottom: 15px;
+                        object-fit: cover;
+                        border: solid 5px white;
+                    }
           .container {
             max-width: 800px;
             margin: 0 auto;
@@ -213,6 +220,7 @@ const Authentication = () => {
             color: white;
             border: none;
             cursor: pointer;
+            font-family: Phetsarath OT;
           }
           button:disabled {
             background-color: #cccccc;
