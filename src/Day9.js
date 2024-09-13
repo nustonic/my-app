@@ -97,7 +97,7 @@ const Day9 = () => {
             <h1>Profile Information</h1>
             <div className="container">
                 <div className="left-column">
-                    <img className="profile-image" width={200} height={200} src="/photo.png"></img>
+                    <img className="profile-image" width={200} height={200} src="/IMG_3413.jpg"></img>
                     <div className="info">
                         <center><h2> {user?.first_name} {user?.surname}</h2></center>
                         <p><strong>Email:</strong> {user?.email}</p>
@@ -202,6 +202,7 @@ const Day9 = () => {
                     .profile-image {
                         border-radius: 50%;
                         margin-bottom: 15px;
+                        object-fit: cover;
                         border: solid 5px white;
                     }
         
