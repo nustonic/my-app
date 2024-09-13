@@ -185,9 +185,11 @@ const Authentication = () => {
                         border: solid 5px white;
                     }
           .container {
-            max-width: 800px;
+            max-width: 300px;
             margin: 0 auto;
             padding: 20px;
+            text-align: center;
+            background-color: #8b9dc9;
           }
           .tabs {
             display: flex;
