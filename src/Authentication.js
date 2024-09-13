@@ -86,7 +86,7 @@ const Authentication = () => {
 
     return (
         <div className="container">
-             <img className="profile-image" width={200} height={200} src="https://image.freepik.com/free-vector/login-concept-illustration_114360-739.jpg"></img>
+             <img className="login-image" width={200} height={200} src="https://image.freepik.com/free-vector/login-concept-illustration_114360-739.jpg"></img>
             <div className="tabs">
                 <button
                     className={activeTab === "login" ? "active" : ""}
@@ -178,11 +178,11 @@ const Authentication = () => {
             )}
             <style jsx>
                 {`
-                 .login-image {
+         .login-image {
                         border-radius: 50%;
                         margin-bottom: 15px;
                         object-fit: cover;
-                        border: solid 5px white;
+                        border: solid 5px #1fe0aa;
                     }
           .container {
             max-width: 300px;
@@ -190,6 +190,7 @@ const Authentication = () => {
             padding: 20px;
             text-align: center;
             background-color: #8b9dc9;
+             border-radius: 20px;
           }
           .tabs {
             display: flex;
@@ -215,9 +216,11 @@ const Authentication = () => {
           textarea {
             margin-bottom: 10px;
             padding: 5px;
+            border-radius: 8px;
           }
           button {
             padding: 10px;
+            border-radius: 8px;
             background-color: #4caf50;
             color: white;
             border: none;
