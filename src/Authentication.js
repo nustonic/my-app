@@ -185,7 +185,7 @@ const Authentication = () => {
                         border: solid 5px #1fe0aa;
                     }
           .container {
-            max-width: 300px;
+            max-width: 400px;
             margin: 0 auto;
             padding: 20px;
             text-align: center;
@@ -226,6 +226,7 @@ const Authentication = () => {
             border: none;
             cursor: pointer;
             font-family: Phetsarath OT;
+            font-size: 14px;
           }
           button:disabled {
             background-color: #cccccc;
